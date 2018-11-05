@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="nivo-slider-vols.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+	<title>Accueil</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="page">
+
+		<nav id="menuhaut">
+			<ul>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Nous contacter</a></li>
+				<li><a href="#">Newsletter</a></li>
+				<li><a href="#">Site Mobile</a></li>
+				<li><a href="#">&rsaquo;&rsaquo; Espace Client</a></li>
+			</ul>
+		</nav>
+
+		<div id="logo"><img src="images-travel/logo-travel.jpg" /></div>
+
+		<nav id="menuprincipal">
+			<ul>
+				<li><a href="index.html"class="choix">Accueil</a></li>
+				<li><a href="#">Vols & séjours</a></li>
+				<li><a href="vols.html">Vols</a></li>
+				<li><a href="sejours.html">Séjours</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+			<!--=============== DEBUT DE VOLS =============== -->
+
+			<main>
+				<div id="background1">
+
+					<form id="blockvol">
+
+						<fieldset id="formulairevol">
+							<legend>Reservez votre vol :</legend>
+
+
+
+	<div class="p_vol">	
+					<div class="volbox">
+							<div class="imagedepart">
+								<img id="decollage" src="images-travel/vols/decollage.png" alt="decollage"></div>
+									<p class="departArriver">Départ :</p>
+
+							<select id="depart">
+								<option name="aeroport" id="cdg">Aéroport de Charles de Gaules - Paris</option>
+								<option name="aeroport" id="london">Aéroport de Londres</option>
+								<option name="aeroport" id="barcelone">Aéroport de Barcelone</option>
+								<option name="aeroport" id="shanghai">Aéroport de Shanghai</option>
+								<option name="aeroport" id="newyork">Aéroport de New-York</option>
+							</select>
+
+					</div>
+
+
+	<div class="volbox">
+							<p class="imagedepart">
+								<img id="atterrissage" src="images-travel/vols/atterissage.png" alt="atterrissage"></p>
+									<p class="departArriver">Retour :</p>
+
+							<select id="depart">
+								<option name="aeroport" id="cdg">Aéroport de Charles de Gaules - Paris</option>
+								<option name="aeroport" id="london">Aéroport de Londres</option>
+								<option name="aeroport" id="barcelone">Aéroport de Barcelone</option>
+								<option name="aeroport" id="shanghai">Aéroport de Shanghai</option>
+								<option name="aeroport" id="newyork">Aéroport de New-York</option>
+							</select>
+	</div>
+
+					</div>
+
+					<div class="datebox">
+									<div class="formdate">
+										<p class="imagedate"><img src="images-travel/vols/calendrierdepart.png" /></p>
+										<label for="date">Date de départ :</label>
+										<input type="date" id="date">
+							
+								</div>
+									<div class="formdate">
+										<p class="imagedate"><img src="images-travel/vols/calendrierretour.png" /></p>
+										<label for="date">Date de retour :</label>
+										<input type="date" id="date">
+							
+								</div>
+					</div>
+
+
+
+	<div class="passagerbox">
+							<div class="formpassager">
+								<div id="imgpsg">
+									<img src="images-travel/vols/picto-perso.jpg" alt="" />
+								</div>
+								<label for="nombrepsg">Passagers :</label>
+								<input type="number" id="nombrepsg" min="1" max="4" />
+
+
+
+						
+
+								</div>
+							<div class="formpassager">
+								<p id="classvol">Choissisez votre classe :</p>
+								<select class="classevol">
+									<option>Economique</option>
+									<option>Business</option>
+									<option>Première</option>
+								</select>
+							</div>
+
+					</div>
+						<div id="boutonSearchReset">
+							<input id="buttonsearch" type="image" src="images-travel/vols/pictosearch.jpg" value="submit" />
+							<input id="buttoncross" type="image" src="images-travel/vols/pictocroix.png" value="reset" />
+						</div>
+						</fieldset>
+						
+					</form>
+
+					<nav id="cut">
+						<div class="wrap">
+ 								 <button class="button">Nos vols discounts</button>
+									</div>
+								<div class="wrap">
+ 									 <button class="button">Nos séjours de rêves</button>
+										</div>
+									<div class="wrap">
+  										<button class="button">Nous contacter</button>
+											</div>
+				</nav>
+
+
+
+
+	</div>
+
+				<div id="background2">
+
+
+			<slider class="slider-wrapper theme-default">
+            	<div id="slider" class="nivoSlider">
+					<img src="images-travel/vols/testbali1.jpg" alt="#">
+					<img src="images-travel/vols/testegypte1.jpg" alt="#">
+					<img src="images-travel/vols/norvege1.jpg" alt="#">
+
+				</div>
+			</slider>
+				</div>
+
+
+				<div id="background3">
+	
+
+			<h1 id="titreMenu">Vos Résultats</h1>
+			<div id="contenuMenu">
+				
+				<nav id="navMenu">
+					<ul id="listeMenu">
+						<li>Type</li>
+						<li>Départ</li>
+						<li>Arriver</li>
+						<li>Temps de trajet</li>
+						<li>Prix</li>
+						<li>Choix</li>
+						<li>Compagnie</li>
+					</ul>
+				</nav>
+
+
+
+
+			</div>
+
+	
+
+
+
+
+				</div>
+
+
+
+
+
+
+
+                    
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</main>
+
+
+
+
+
+
+			<!--=============== FIN DE VOLS =============== -->
+
+
+	<div id="reseaux">
+			<p>Nous suivre</p>
+			<a href="#"><img src="images-travel/facebook.jpg" alt="facebook" /></a><a href="#"><img src="images-travel/twitter.jpg" alt="twitter" /></a>
+		</div>
+
+	</div>
+
+			<!--=============== DEBUT DE FOOTER ===============-->
+
+					<footer id="footer">
+						<div id="pied">
+							<p>© 2017-Tous droits réservés</p>
+							<p>Info légales</p>
+						</div>
+					</footer>
+
+					<!--=============== FIN DE FOOTER ===============-->
+		<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+            <script type="text/javascript" src="scripts/jquery.nivo.slider.js"></script>
+            <script type="text/javascript">
+            $(window).load(function() {
+            $('#slider').nivoSlider({
+            	controlNav: false
+            	            })
+            });
+           
+            </script>
+	
+					</body>
+
+</html>
